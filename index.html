@@ -6,33 +6,112 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap">
     </head>
-
     <body>
-        <div class="opening">
-            <h1>Michael <span class="empower">Rayson</span></h1>
-            <h3>Computer Programmer Student at Algonquin College</h3>
-            <table class="socials">
-                <tr>
-                    <td><a href="https://www.linkedin.com/in/michael-rayson-033b79198/"><img class="icon" src="imgs/social-linkedin-512.png"></a></td>
-                    <td><a href="https://github.com/mRayson-git"><img class="icon" src="imgs/github-512.png"></a></td>
-                    <td><a href="mailto:mrayson5129@gmail.com"><img class="icon" src="imgs/gmail1600.png"></a></td>
-                </tr>
-            </table>
-            <table class="navigation">
-                <tr>
-                    <td><a href="#about">About</a></td>
-                    <td><a href="#education">Education</a></td>
-                    <td><a href="#projects">Projects</a></td>
-                    <td><a href="#skills">Skills</a></td>
-                    <td><a href="#languages">Languages</a></td>
-                </tr>
-            </table>
+      <div class="nav-bar">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#languages" style="margin-right: 10px;">Languages</a>
+      </div>
+      <section class="opening">
+        <div class="center">
+          <h1>Michael <span class="empower">Rayson</span></h1>
+          <h3><span class="empower"><a href="https://www.algonquincollege.com/sat/program/computer-programming/" style="color: royalblue;">Computer Programmer</a></span> Student at Algonquin College</h3>
+          <table class="socials">
+              <tr>
+                  <td><a href="https://www.linkedin.com/in/michael-rayson-033b79198/"><img class="icon" src="imgs/social-linkedin-512.png"></a></td>
+                  <td><a href="https://github.com/mRayson-git"><img class="icon" src="imgs/github-512.png"></a></td>
+                  <td><a href="mailto:mrayson5129@gmail.com"><img class="icon" src="imgs/gmail1600.png"></a></td>
+              </tr>
+          </table>
         </div>
+      </section>
+      <hr>
+      <section class="about" id="about">
+        <div class="center">
+          <h1><span class="empower">About Me</span></h1>
+          <p>I am a third level computer programming student at Algonquin College. My passions lay with finding ways to solve
+          everyday problems using automation through programming. Currently my interest is in data analysis which is driving
+          me to work on my own budget application. You'll find more information on that further down.</p>
+          <p>I have a coop term this comming fall, <span class="empower">September 2020</span>, and would love an oportunity to
+          demonstrate and grow my skills. </p>
+          <p>I can be contacted at <span class="empower"><a href="mailto:mrayson5129@gmail.com">mrayson5129@gmail.com</a></span></p></p>
+        </div>
+      </section>
+      <hr>
+      <section class="eductation" id="education">
+        <div class="center">
+          <h1><span class="empower">Education</span></h1>
+          <h3 style="margin-bottom:0;">Algonquin College </h3>
+          <p style="margin-top:5px;">Computer Programmer, <span class="empower">September 2019 - Present</span></p>
+          <p>Heavy focus on object oriented practices, mostly with the Java programming language. Alongside my studies I worked on
+          various side projects that helped me expand on the concepts taught in class. With the programming came additional courses
+          on database design and management, in which I was able to gain experience with:</p>
+          <ul>
+              <li>PostgreSQL</li>
+              <li>MS Access</li>
+              <li>Microsoft SQL Server</li>
+              <li>Oracle DB</li>
+          </ul>
+          <p>And with their respective development tools. I was also able to take advantage of a course focusing on web application
+          development which opened up a world of possibilities for me. In this course we focused on the relationship between HTML, PHP,
+          JavaScript and databases which combined with a Linux operating system create the LAMP stack.</p>
+        </div>
+      </section>
+      <hr>
+      <section class="projects" id="projects">
+        <div class="center">
+          <h1><span class="empower">Projects</span></h1>
+          <p>Nothing will beat the feeling of overcoming a problem when learning something new. For that reason I like to spend my time
+          working on small projects that I can use to branch off from what is being taught to expand my knowledge in those areas. My first
+          major project was inspired by a need to organize my financial situation. This led to the creation of my, </p>
+          <h4><a href="https://github.com/mRayson-git/CommandLineBudget">Command Line Budget Application (Text-Based)</a></h4>
+          <img src="imgs/CommandLineBudget.png" alt="Image of budget application start menu">
+          <p>It was around finishing that project that I started to learn about developing websites using html and while I knew I wanted to
+          re-create my budgeting application as a web app I first wanted experience just working with HTML. Thats where this site came from.</p>
+          <h4><a href="https://github.com/mRayson-git/OnlinePortfolio">Online Portfolio</a></h4>
+          <img src="imgs/OnlinePortfolio.png" alt="Image of Online Portfolio webpage">
+          <p>While this project had simply let me play with HTML and CSS, it was the basis for the creation of my new (work-in-progress)
+          web application for budgeting.</p>
+          <h4><a href="https://github.com/mRayson-git/WebApp-Budget">Budgeting Web Application</a></h4>
+          <img src="imgs/loginPage.png" alt="Login page of web app">
+          <img src="imgs/transactionPage.png" alt="Transaction Overview Page">
+          <p>This project is currently what is taking the majority of my attention at the moment. Its been leading me to dive deeper into
+          PHP and the mysqli connector for what is currently a MariaDB database. Further information on these projects can be found on their
+          respective GitHub repo pages.</p>
+        </div>
+      </section>
+      <hr>
+      <section class="skills" id="skills">
+        <div class="center">
+          <h1><span class="empower">Skills</span></h1>
+          <p>As you can see, I have been building myself a broad foundation of knowledge from which to build up. The skills that I believe
+          I am more proficient in are:</p>
+          <ul>
+            <li>Java programming language => continue with a focus on it at school</li>
+            <li>PHP => I plan most of the future projects I pursue will be web-based</li>
+            <li>Relational Database management => data analytics has always interested me and so this is a skill I plan to further improve</li>
+            <li>Python => This was the first language that I learned programming with, it will always be something I enjoy improving</li>
+          </ul>
+        </div>
+      </section>
+      <hr>
+      <section class="languages" id="languages">
+        <div class="center">
+          <h1><span class="empower">Languages</span></h1>
+          <h3>English</h3>
+          <p>This is my native language, fluent in both speaking and writing.</p>
+          <h3>French</h3>
+          <p>Graduated highschool having gone through French immersion the whole way.
+          Proficient at speaking, intermediate at writing.</p>
+        </div>
+      </section>
 
-        <div class="about section" id="about">
+        <!-- <div class="about section" id="about">
             <h1>About Me</h1>
             <p>I am a second level computer programming student at Algonquin College. My passions lay with finding ways
-                to solve everyday problems using automation through programming. Currently my interest is in data analysis, 
+                to solve everyday problems using automation through programming. Currently my interest is in data analysis,
                 and as you will see I'm tracking my spending through a python/mysql program to optimize my budget.
             </p>
             <p>I have a coop term coming this fall, <span class="empower">September 2020</span>, and would love an opportunity
@@ -44,7 +123,7 @@
             <h1 class="empower">Education</h1>
             <h2>Algonquin College </h2>
             <h3>Computer Programmer, <span class="empower">September 2019 - Present</span></h3>
-            <p>Focused on Object Oriented Programming practices. Emphasis on Java with some scripting languages such as 
+            <p>Focused on Object Oriented Programming practices. Emphasis on Java with some scripting languages such as
                 PHP and JavaScript. Built web applications and created relational databases with the following DBMS:
             </p>
             <ul>
@@ -64,13 +143,13 @@
             <p>This project was inspired by a need for organization within my finances. Through it I can set budgeting
                 goals on a monthly basis and track what categories my money is spent in. This project taught me,
             </p>
-            <ul>
+            <ul>Projects
                 <li>an introduction into the Python programming language,</li>
                 <li>database design and normalization,</li>
                 <li>that money is a lot easier to manage when you can track where its going</li>
             </ul>
             <h3 class="empower"><a href="https://github.com/mRayson-git/OnlinePortfolio">Online Portfolio</a></h3>
-            <p>This project was created because as I approach my coop term in the fall semester, I want to find more ways 
+            <p>This project was created because as I approach my coop term in the fall semester, I want to find more ways
                 to market my skills. This project taught me,
             </p>
             <ul>
@@ -83,7 +162,7 @@
             <h1 class="empower">Skills</h1>
             <p>Throughout my time at Algonquin I have learned many different useful things and those that I find I am proficient
                 at are:
-            </p> 
+            </p>
             <ul>
                 <li>Object Oriented Programming with Java</li>
                 <li>Database Design with a variety of DBMS (see eduction section)</li>
@@ -102,6 +181,6 @@
             <p>This is my native language, fluent in both speaking and writing.</p>
             <h3>French</h3>
             <p>Graduated highschool having gone through French immersion the whole way. Proficient at speaking, intermediate at writing.</p>
-        </div>
+        </div> -->
     </body>
 </html>
